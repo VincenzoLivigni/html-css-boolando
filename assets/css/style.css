@@ -15,8 +15,12 @@ body {
     font-family: sans-serif;
 }
 
-h3 {
-    font-size: 0.8rem
+h2 {
+    font-size: 0.9rem
+}
+
+h4 {
+    font-size: 0.8rem;
 }
 
 /* utils */
@@ -119,6 +123,34 @@ h3 {
     left: 0
 }
 
+/* footer utilis */
+.footer-content {
+    justify-content: space-between;
+    color: var(--zal-white);
+}
+
+footer h2,
+.social {
+    padding-top: 1.5rem
+}
+
+footer span {
+    margin-right: 0.25rem
+}
+
+
+.info-sito {
+    font-size: 0.7rem;
+    padding: 0.8rem 0.5rem 1.5rem 0
+}
+
+.social-icon {
+    font-size: 0.9rem;
+    padding: 0.8rem 0.5rem 1.5rem 0
+}
+
+
+
 /* header */
 header {
     background-color: var(--zal-primary);
@@ -130,6 +162,10 @@ a {
 }
 
 /* main */
-main {
-    height: 1000px;
+
+
+/* footer */
+footer {
+    height: 90px;
+    background-color: var(--zal-dark);
 }
