@@ -56,6 +56,7 @@ h3 {
 
 .main-content>* {
     width: 32%;
+    position: relative;
 }
 
 .main-content>* img {
@@ -80,6 +81,43 @@ h3 {
     margin-bottom: 2.5rem
 }
 
+.preferito {
+    width: 40px;
+    height: 40px;
+    background-color: var(--zal-white);
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 2%;
+    left: 89%;
+}
+
+.sconto,
+.sostenibilità,
+.sostenibilità2 {
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    color: var(--zal-white);
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+}
+
+.sostenibilità,
+.sostenibilità2 {
+    background-color: green;
+    width: 80px;
+    left: 13%
+}
+
+.sostenibilità2 {
+    left: 0
+}
 
 /* header */
 header {
