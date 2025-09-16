@@ -1,0 +1,53 @@
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --zal-primary: #ff6900;
+    --zal-white: #ffffff;
+    --zal-dark: #1a1a1a;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utils */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* header utils */
+.navbar {
+    padding: 1rem 0;
+    color: var(--zal-white);
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 30px;
+}
+
+.gender {
+    gap: 1rem;
+}
+
+/* header */
+header {
+    background-color: var(--zal-primary);
+}
+
+a {
+    color: var(--zal-white);
+    text-decoration: none;
+}
